@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 nohup python train_dali.py > train_log/resnet34_cfiar100.txt 2>&1 &
